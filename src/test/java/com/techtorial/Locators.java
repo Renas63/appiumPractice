@@ -73,5 +73,7 @@ public class Locators {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         AndroidElement views = driver.findElementByAccessibilityId("Views");
         views.click();
+
+        System.out.println("This is the end of the test3");
     }
 }
